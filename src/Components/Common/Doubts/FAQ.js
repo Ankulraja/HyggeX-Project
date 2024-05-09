@@ -10,7 +10,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto py-20">
+    <div className="w-11/12 mx-auto py-16 max-md:py-10">
       <h1 className="text-4xl font-bold w-fit text-transparent bg-clip-text bg-gradient-to-br from-blue-800 to-blue-500">
         FAQ
       </h1>

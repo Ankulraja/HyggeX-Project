@@ -68,7 +68,7 @@ const Study = () => {
             )}
           </button>
         </div>
-        <div className="w-7/12 max-lg:w-9/12 max-md:11/12 max-sm:w-full border mx-auto flex items-center justify-between py-5">
+        <div className="w-7/12 max-lg:w-9/12 max-md:11/12 max-sm:w-full mx-auto flex items-center justify-between py-5">
           <div className="text-3xl w-1/4 font-extrabold text-blue-900 flex item-center">
             <button onClick={replayHandler}>
               <MdReplay />

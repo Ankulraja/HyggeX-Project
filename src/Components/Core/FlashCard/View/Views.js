@@ -15,7 +15,7 @@ const Views = () => {
 
   return (
     <div className="w-11/12 mx-auto">
-      <div className="flex  md:w-6/12 md:mx-auto md:flex-row justify-center items-center md:justify-between">
+      <div className="flex mx-auto md:w-6/12 md:mx-auto md:flex-row justify-center items-center md:justify-between">
         {ViewNavLink.map((val, index) => (
           <div
             key={index}

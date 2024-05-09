@@ -7,11 +7,13 @@ const FlashCard = () => {
   return (
     <div className="w-11/12 mx-auto py-20 flex flex-col gap-10">
       <div className="w-11/12 mx-auto">
-        <div className="flex items-center text-gray-700">
+        <div className="flex items-center text-gray-700 max-lg:text-[14px] max-md:text-[12px] max-sm:text-[10px]">
           {" "}
-          <IoHomeOutline></IoHomeOutline>  <FaChevronRight></FaChevronRight> 
-          <p>FlashCarda</p><FaChevronRight></FaChevronRight> 
-          <p>Mathematics</p><FaChevronRight></FaChevronRight> 
+          <IoHomeOutline></IoHomeOutline> <FaChevronRight></FaChevronRight>
+          <p>FlashCarda</p>
+          <FaChevronRight></FaChevronRight>
+          <p>Mathematics</p>
+          <FaChevronRight></FaChevronRight>
           <p className="text-blue-700">Relation And Function</p>
         </div>
       </div>
@@ -42,7 +44,7 @@ const FlashCard = () => {
             ></img>
           </div>
         </div>
-        <button className="flex justify-center items-center gap-2 text-2xl text-blue-900">
+        <button className="flex justify-center items-center gap-2 max-md:gap-0 border max-md:w-1/2 max-md:text-xl  text-2xl text-blue-900">
           <IoMdAddCircle className="text-4xl "></IoMdAddCircle>
           <p>Create FlashCard</p>
         </button>
