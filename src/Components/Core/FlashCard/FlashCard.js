@@ -7,7 +7,7 @@ const FlashCard = () => {
   return (
     <div className="w-11/12 mx-auto py-20 flex flex-col gap-10">
       <div className="w-11/12 mx-auto">
-        <div className="flex items-center text-gray-700 max-lg:text-[14px] max-md:text-[12px] max-sm:text-[10px]">
+        <div className="flex items-center text-gray-700 max-lg:text-[14px] max-md:text-[12px] max-sm:text-[12px]">
           {" "}
           <IoHomeOutline></IoHomeOutline> <FaChevronRight></FaChevronRight>
           <p>FlashCarda</p>

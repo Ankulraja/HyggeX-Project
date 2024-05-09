@@ -1,6 +1,6 @@
 const Game = () => {
   return (
-    <div>Game</div>
+    <div className="flex justify-center items-center text-xl">Game</div>
   )
 }
 export default Game

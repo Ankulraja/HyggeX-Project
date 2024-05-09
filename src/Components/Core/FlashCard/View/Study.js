@@ -46,7 +46,9 @@ const Study = () => {
   return (
     <div className="w-full mx-auto py-5 flex flex-col justify-center items-center">
       <div className="w-full md:w-7/12 lg:w-9/12">
-        <div className="relative mx-auto flex justify-center items-center group">
+        <div className="relative mx-auto  flex justify-center items-center group">
+          
+          
           <ReactPlayer
             ref={videoRef}
             url={VideoLink[page].url}
@@ -56,6 +58,7 @@ const Study = () => {
             muted={mute}
             loop={true}
           />
+    
 
           <button
             onClick={muteHandler}

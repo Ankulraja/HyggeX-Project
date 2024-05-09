@@ -1,6 +1,6 @@
 const Quiz = () => {
   return (
-    <div>Quiz</div>
+    <div className="flex justify-center items-center text-xl">Quiz</div>
   )
 }
 export default Quiz

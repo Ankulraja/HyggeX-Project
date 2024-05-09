@@ -1,6 +1,6 @@
 const Other = () => {
   return (
-    <div>Other</div>
+    <div className="flex justify-center items-center text-xl">Other</div>
   )
 }
 export default Other
