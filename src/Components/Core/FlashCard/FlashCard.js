@@ -44,7 +44,7 @@ const FlashCard = () => {
             ></img>
           </div>
         </div>
-        <button className="flex justify-center items-center gap-2 max-md:gap-0 border max-md:w-1/2 max-md:text-xl  text-2xl text-blue-900">
+        <button className="flex justify-center items-center gap-2 max-md:gap-0  max-md:w-1/2 max-md:text-xl  text-2xl text-blue-900">
           <IoMdAddCircle className="text-4xl "></IoMdAddCircle>
           <p>Create FlashCard</p>
         </button>
