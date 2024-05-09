@@ -1,9 +1,20 @@
 import FAQ from "../../Common/Doubts/FAQ";
 import Views from "./View/Views";
 import { IoMdAddCircle } from "react-icons/io";
+import { IoHomeOutline } from "react-icons/io5";
+import { FaChevronRight } from "react-icons/fa";
 const FlashCard = () => {
   return (
-    <div className="w-11/12 mx-auto py-40 flex flex-col gap-10">
+    <div className="w-11/12 mx-auto py-20 flex flex-col gap-10">
+      <div className="w-11/12 mx-auto">
+        <div className="flex items-center text-gray-700">
+          {" "}
+          <IoHomeOutline></IoHomeOutline>  <FaChevronRight></FaChevronRight> 
+          <p>FlashCarda</p><FaChevronRight></FaChevronRight> 
+          <p>Mathematics</p><FaChevronRight></FaChevronRight> 
+          <p className="text-blue-700">Relation And Function</p>
+        </div>
+      </div>
       <div className="w-11/12 mx-auto">
         <h1 className="font-bold text-xl text-blue-800">
           Relations and Functions (Mathmatics)
@@ -24,12 +35,16 @@ const FlashCard = () => {
           </div>
           <div className="">
             <p className="text-[12px]">Published By</p>
-            <img className="w-20 " src="https://res.cloudinary.com/dkoezhi9u/image/upload/v1715269605/UploadOnly/Screenshot_2024-05-09_at_9.15.36_PM-removebg-preview_ilru7w.png" alt="loading..."></img>
+            <img
+              className="w-20 "
+              src="https://res.cloudinary.com/dkoezhi9u/image/upload/v1715269605/UploadOnly/Screenshot_2024-05-09_at_9.15.36_PM-removebg-preview_ilru7w.png"
+              alt="loading..."
+            ></img>
           </div>
         </div>
         <button className="flex justify-center items-center gap-2 text-2xl text-blue-900">
-        <IoMdAddCircle className="text-4xl "></IoMdAddCircle>
-                  <p>Create FlashCard</p>
+          <IoMdAddCircle className="text-4xl "></IoMdAddCircle>
+          <p>Create FlashCard</p>
         </button>
       </div>
 

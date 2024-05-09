@@ -67,7 +67,7 @@ const NavBar = () => {
         </div>
 
         {/* Login and Signup Buttons */}
-        <div className="flex flex-wrap justify-center gap-5 items-center ">
+        <div className="flex my-2 flex-wrap justify-center gap-5 items-center ">
           {token === null && (
             <Link to="/login">
               <div

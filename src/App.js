@@ -12,7 +12,9 @@ import FAQ from './Components/Common/Doubts/FAQ';
 function App() {
   return (
     <div className='w-screen min-h-screen'>
+      <div className='h-20'>
      <NavBar></NavBar>
+      </div>
     <Routes>
       <Route path='/' element={<Home></Home>}>
       </Route>

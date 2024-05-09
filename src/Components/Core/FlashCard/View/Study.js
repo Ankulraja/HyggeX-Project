@@ -41,21 +41,24 @@ const Study = () => {
   useEffect(() => {}, [mute]);
   return (
     <div className="w-full  mx-auto py-5 flex flex-col justify-center items-center">
-      <div className="w-6/12 auto">
+      <div className="w-6/12 max-lg:w-7/12 max-md:w-11/12 auto">
         <div className="w-full relative mx-auto flex justify-center items-center group">
+          <div className="border">
           <ReactPlayer
             ref={videoRef}
             url={VideoLink[page].url}
-            width="500px"
-            height="300px"
+            width={"500px"}
+            height={"290px"}
             playing={true}
-            muted={mute} // Use the mute state here
+            muted={mute}
             loop={true}
-            style={{ borderRadius: "40px" }}
+            
           />
+          </div>
+          
           <button
             onClick={muteHandler}
-            className={` invisible group-hover:visible text-3xl absolute text-slate-200 top-[3%] right-[2%]`}
+            className={` invisible group-hover:visible text-3xl absolute text-gray-700 top-[3%] right-[7%]`}
           >
             {!mute ? (
               <HiMiniSpeakerWave></HiMiniSpeakerWave>
@@ -64,7 +67,7 @@ const Study = () => {
             )}
           </button>
         </div>
-        <div className="w-10/12  mx-auto flex items-center justify-between py-5 ">
+        <div className="w-10/12 border max-md:w-full  mx-auto flex items-center justify-between py-5 ">
           <div className="text-3xl w-1/4 font-extrabold text-blue-900 flex item-center">
             <button onClick={replayHandler}>
               <MdReplay />
@@ -74,7 +77,7 @@ const Study = () => {
             <button onClick={decrementor}>
               <FaCircleChevronLeft />
             </button>
-            <p className="text-lg">
+            <p className="text-lg flex">
               {page + 1} / {VideoLink?.length}
             </p>
             <button onClick={incrementor}>
